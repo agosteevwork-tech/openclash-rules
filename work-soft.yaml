@@ -1,0 +1,18 @@
+payload:
+  # Autodesk
+  - DOMAIN-SUFFIX,autodesk.com
+  - DOMAIN-SUFFIX,autocad.com
+
+  # Archicad
+  - DOMAIN-SUFFIX,graphisoft.com
+  - DOMAIN-SUFFIX,archicad.com
+
+  # SketchUp
+  - DOMAIN-SUFFIX,sketchup.com
+  - DOMAIN-SUFFIX,trimble.com
+  - DOMAIN-SUFFIX,3dwarehouse.sketchup.com
+
+  # NVIDIA / GeForce Experience
+  - DOMAIN-SUFFIX,nvidia.com
+  - DOMAIN-SUFFIX,nvidiagrid.net
+  - DOMAIN-SUFFIX,gfe.nvidia.com
