@@ -1,0 +1,15 @@
+payload:
+  # Rust
+  - DOMAIN-SUFFIX,facepunch.com
+  - DOMAIN-SUFFIX,easyanticheat.net
+
+  # Blizzard
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,blizzard.com
+  - DOMAIN-SUFFIX,blizzardentertainment.com
+
+  # Warcraft III
+  - DST-PORT,6110-6119
+
+  # Rust ports
+  - DST-PORT,28000-28200
