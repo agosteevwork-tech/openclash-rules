@@ -22,3 +22,14 @@ payload:
   - DOMAIN-SUFFIX,avito.ru
   - DOMAIN-SUFFIX,dns-shop.ru
   - DOMAIN-SUFFIX,citilink.ru
+
+  #ВК, Max
+  - DOMAIN-SUFFIX,vk.com
+  - DOMAIN-SUFFIX,vkvideo.ru
+  - DOMAIN-SUFFIX,vkuser.net
+  - DOMAIN-SUFFIX,vkcdn.net
+  - DOMAIN-SUFFIX,mycdn.me
+  - DOMAIN-SUFFIX,max.ru
+  - DOMAIN-SUFFIX,max.com
+  - DOMAIN-SUFFIX,mail.ru
+  - DOMAIN-SUFFIX,list.ru
