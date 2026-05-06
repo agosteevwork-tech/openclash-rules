@@ -1,0 +1,24 @@
+payload:
+  # РФ
+  - DOMAIN-SUFFIX,ru
+  - DOMAIN-SUFFIX,su
+  - DOMAIN-SUFFIX,рф
+
+  # Банки
+  - DOMAIN-SUFFIX,sberbank.ru
+  - DOMAIN-SUFFIX,sber.ru
+  - DOMAIN-SUFFIX,tinkoff.ru
+  - DOMAIN-SUFFIX,tbank.ru
+  - DOMAIN-SUFFIX,alfabank.ru
+  - DOMAIN-SUFFIX,vtb.ru
+
+  # Гос
+  - DOMAIN-SUFFIX,gosuslugi.ru
+
+  # Маркетплейсы
+  - DOMAIN-SUFFIX,wildberries.ru
+  - DOMAIN-SUFFIX,ozon.ru
+  - DOMAIN-SUFFIX,yandex.ru
+  - DOMAIN-SUFFIX,avito.ru
+  - DOMAIN-SUFFIX,dns-shop.ru
+  - DOMAIN-SUFFIX,citilink.ru
