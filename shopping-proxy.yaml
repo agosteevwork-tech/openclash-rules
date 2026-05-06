@@ -1,0 +1,7 @@
+payload:
+  - DOMAIN-SUFFIX,amazon.com
+  - DOMAIN-SUFFIX,amazonaws.com
+
+  - DOMAIN-SUFFIX,alibaba.com
+  - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,aliexpress.com
