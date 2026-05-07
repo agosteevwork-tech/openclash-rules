@@ -1,35 +1,40 @@
 payload:
+  # Max - обход прокси по IP (выше всех правил)
+  - IP-CIDR,155.212.204.5/32,DIRECT
+  - IP-CIDR,155.212.204.140/32,DIRECT
+  - IP-CIDR,155.212.204.74/32,DIRECT
+
   # РФ
-  - DOMAIN-SUFFIX,ru
-  - DOMAIN-SUFFIX,su
-  - DOMAIN-SUFFIX,рф
+  - DOMAIN-SUFFIX,ru,DIRECT
+  - DOMAIN-SUFFIX,su,DIRECT
+  - DOMAIN-SUFFIX,рф,DIRECT
 
   # Банки
-  - DOMAIN-SUFFIX,sberbank.ru
-  - DOMAIN-SUFFIX,sber.ru
-  - DOMAIN-SUFFIX,tinkoff.ru
-  - DOMAIN-SUFFIX,tbank.ru
-  - DOMAIN-SUFFIX,alfabank.ru
-  - DOMAIN-SUFFIX,vtb.ru
+  - DOMAIN-SUFFIX,sberbank.ru,DIRECT
+  - DOMAIN-SUFFIX,sber.ru,DIRECT
+  - DOMAIN-SUFFIX,tinkoff.ru,DIRECT
+  - DOMAIN-SUFFIX,tbank.ru,DIRECT
+  - DOMAIN-SUFFIX,alfabank.ru,DIRECT
+  - DOMAIN-SUFFIX,vtb.ru,DIRECT
 
   # Гос
-  - DOMAIN-SUFFIX,gosuslugi.ru
+  - DOMAIN-SUFFIX,gosuslugi.ru,DIRECT
 
   # Маркетплейсы
-  - DOMAIN-SUFFIX,wildberries.ru
-  - DOMAIN-SUFFIX,ozon.ru
-  - DOMAIN-SUFFIX,yandex.ru
-  - DOMAIN-SUFFIX,avito.ru
-  - DOMAIN-SUFFIX,dns-shop.ru
-  - DOMAIN-SUFFIX,citilink.ru
+  - DOMAIN-SUFFIX,wildberries.ru,DIRECT
+  - DOMAIN-SUFFIX,ozon.ru,DIRECT
+  - DOMAIN-SUFFIX,yandex.ru,DIRECT
+  - DOMAIN-SUFFIX,avito.ru,DIRECT
+  - DOMAIN-SUFFIX,dns-shop.ru,DIRECT
+  - DOMAIN-SUFFIX,citilink.ru,DIRECT
 
-  #ВК, Max
-  - DOMAIN-SUFFIX,vk.com
-  - DOMAIN-SUFFIX,vkvideo.ru
-  - DOMAIN-SUFFIX,vkuser.net
-  - DOMAIN-SUFFIX,vkcdn.net
-  - DOMAIN-SUFFIX,mycdn.me
-  - DOMAIN-SUFFIX,max.ru
-  - DOMAIN-SUFFIX,max.com
-  - DOMAIN-SUFFIX,mail.ru
-  - DOMAIN-SUFFIX,list.ru
+  # ВК, Max (дополнительно через DOMAIN-SUFFIX)
+  - DOMAIN-SUFFIX,vk.com,DIRECT
+  - DOMAIN-SUFFIX,vkvideo.ru,DIRECT
+  - DOMAIN-SUFFIX,vkuser.net,DIRECT
+  - DOMAIN-SUFFIX,vkcdn.net,DIRECT
+  - DOMAIN-SUFFIX,mycdn.me,DIRECT
+  - DOMAIN-SUFFIX,max.ru,DIRECT
+  - DOMAIN-SUFFIX,max.com,DIRECT
+  - DOMAIN-SUFFIX,mail.ru,DIRECT
+  - DOMAIN-SUFFIX,list.ru,DIRECT
